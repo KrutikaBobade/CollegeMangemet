@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import com.clc.java.mvc.service.impl.RegistationServiceImpl;
 
-@Controller("regist")
+@Controller("controller")
 public class RegistationController {
 	@Autowired
 	public RegistationServiceImpl regisService;
