@@ -1,4 +1,5 @@
 package com.clc.java.mvc.controller;
+
 import com.clc.java.mvc.bean.*;
 import java.util.HashMap;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,16 +11,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import com.clc.java.mvc.service.impl.RegistationServiceImpl;
 
-
-@Controller("registationController")
+@Controller("registation")
 public class RegistationController {
-     @Autowired
+	@Autowired
 	public RegistationServiceImpl regisService;
-	
-	static{
+
+	static {
 		System.out.println("RegistationController loaded");
 	}
-	
+
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView saveProduct(@ModelAttribute("studentbean") StudentBean bean) {
 		System.out.println("saveProduct invoked..." + bean);
@@ -56,5 +56,5 @@ public class RegistationController {
 		regisService.deleteStudent(studId);
 		return new ModelAndView("redirect:/add");
 	}
-	
+
 }

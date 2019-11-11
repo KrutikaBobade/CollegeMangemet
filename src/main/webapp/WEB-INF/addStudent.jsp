@@ -22,7 +22,7 @@
 
 	<div class="container">
 		<form:form method="POST"
-			action="http://localhost:8082/collegemanagement/save"
+			action="http://localhost:8081/collegemanagement/save"
 			modelAttribute="studentbean">
 			<table>
 				<tr>

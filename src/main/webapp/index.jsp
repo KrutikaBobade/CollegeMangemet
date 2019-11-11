@@ -6,7 +6,7 @@
 <h1>College Mangement ---</h1>
 
 
- <a href="http://localhost:8082/collegemanagement/add">Add New Students</a>
+ <a href="http://localhost:8081/collegemanagement/add">Add New Students</a>
     
 </body>
 </html>
