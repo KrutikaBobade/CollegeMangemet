@@ -18,6 +18,7 @@ public class RegistationController {
 
 	static {
 		System.out.println("RegistationController loaded");
+		System.out.println("sdbjfjds");
 	}
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
