@@ -20,8 +20,7 @@ public class RegistationController {
 		System.out.println("RegistationController loaded");
 		System.out.println("sdb");
 		System.out.println("sdb");
-		System.out.println("sdb");
-		System.out.println("sdb");
+		
 
 	}
 
